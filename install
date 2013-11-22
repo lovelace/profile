@@ -20,7 +20,7 @@ fi
 
 ln -s profile.d/init .profile
 
-for BLOCKING_RC in .bashrc .login .bashprofile; do
+for BLOCKING_RC in .bashrc .login .bash_profile; do
   if [ -f $BLOCKING_RC ]; then
     echo
     echo "Warning: Found existing $BLOCKING_RC which may cause .profile not to load."

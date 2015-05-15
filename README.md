@@ -1,7 +1,7 @@
 My Bash Profile
 ===============
 
-This is the profile that I'm now using across a number of machines that I administer.  Most of the tricks I use are fairly general and could be reused by anyone.
+This is the profile that I'm now using across a number of machines that I use.  It was forked from the original created by mattschafer.  You should probably look there before trying to use this.  But, as he says: "Most of the tricks I use are fairly general and could be reused by anyone."
 
 What's it look like?
 --------------------
@@ -11,7 +11,7 @@ What's it look like?
 Installation
 ------------
 
-    curl -s https://raw.github.com/matschaffer/profile/master/install | bash
+    curl -s https://raw.githubusercontent.com/lovelace/profile/master/install | bash
 
 From here you can now put any `*.conf` in `~/profile.d` and it'll get loaded in alphabetical order. You can also make directories that end in `.conf` which profile will then load all the `.conf` files in that directory in order.
 
